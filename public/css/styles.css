@@ -1,0 +1,50 @@
+/* General styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+/* Header styling */
+header {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+header img {
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Header classes */
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer {
+  position: absolute;
+  padding: 30px;
+  bottom: 10px;
+  margin: auto;
+}
+
+
+
+
+

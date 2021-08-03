@@ -1,0 +1,19 @@
+{
+  "name": "nasa-web-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js -e js,hbs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
+
